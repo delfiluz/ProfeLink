@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Profe-Link"
+        content="Descubrí ProfeLink, la app ideal para encontrar profesores particulares según tus necesidades.">
+    <title>ProfeLink - Encuentra tu profesor ideal</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding: top;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            width: 1500px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 100px;
+            background-image: url(img/1x/fondo\ 5.png);
+        }
+
+
+
+        .contenedor1 {
+            width: 90%;
+            max-width: 1200px;
+            margin: 10px auto;
+            padding-top: 150px;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .contenedor2 {
+            width: 90%;
+            max-width: 1200px;
+            margin: 10px auto;
+            padding-top: 150px;
+            justify-content: center;
+        }
+
+        .contenedor3 {
+            width: 90%;
+            max-width: 1200px;
+            margin: 10px auto;
+            justify-content: center;
+        }
+
+
+        .cabeza {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #f4f4f4;
+            position: fixed;
+            z-index: 300;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #9900ff;
+            padding: 30px;
+            height: 40px;
+
+        }
+
+        .cabeza h2 {
+            font-size: 13px;
+        }
+
+        nav {
+            position: absolute;
+            right: 0;
+            top: 50%;
+        }
+
+        nav ul li {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12pt;
+            margin-right: 10px;
+        }
+
+        #nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 11pt;
+
+        }
+
+        #nav ul li a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #9900ff;
+        }
+
+        .Ofrecemos {
+            top: 20px;
+            padding: 40px;
+    
+        }
+
+        .Ofrecemos h2 {
+            padding-top: 60px;
+            text-align: center;
+        }
+
+        .Ofrecemos-lista {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .Ofrecemos {
+            text-align: center;
+        }
+
+        .Ofrecemos img {
+            width: 100px;
+            margin-bottom: 10px;
+            color: #c7c4ee;
+        }
+
+        .Ofrecemos h3 {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+
+        .Opiniones {
+            padding: 40px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .Opiniones h2 {
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .Opiniones {
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .Opiniones span {
+            font-style: italic;
+            color: #9900ff;
+            color: #ffffff;
+        }
+
+        .descargar {
+            background: #c7c4ee;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .footer {
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+
+        .linksredes a {
+            color: #29b5cc;
+            margin: 0 5px;
+        }
+
+        .linksredes a:hover {
+            text-decoration: underline;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .Nombre h1 {
+            font-size: 80px;
+            color: #9900ff;
+        }
+
+        .Nombre h2 {
+            font-size: 30px;
+        }
+
+        .texto {
+            color: #ffffff;
+            margin-left: 0px;
+        }
+
+        .imagen {
+            text-align: right;
+        }
+
+        .imagen img {
+            max-width: 150%;
+            height: auto;
+        }
+    </style>
+
+<body>
+    <header>
+        <section class="cabeza">ProfeLink
+            <section>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#margenOfrecemos">Ofrecemos</a></li>
+                        <li><a href="#margenDescarga">Descarga aquí</a></li>
+                        <li><a href="#margenContactate">Contactate</a></li>
+
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </header>
+
+    <section class="Nombre">
+        <div class="flex-container">
+            <div class="texto">
+                <h1>ProfeLink</h1>
+                <h2>La app ideal para encontrar profesores <br> particulares según tus necesidades.</h2>
+            </div>
+            <div class="imagen">
+                <img src="img/1x/celulares.png" alt="demostración">
+            </div>
+    </section>
+
+    <section class="Ofrecemos"><a id="margenOfrecemos"></a>
+        <div class="contenedor1">
+            <h2>¿Por qué elegir ProfeLink?</h2>
+            <div class="Ofrecemos-lista">
+                <div class="Ofrecemos">
+                    <img src="clases.png" alt="Clases personalizadas">
+                    <h3>Clases personalizadas</h3>
+                    <p>Adaptadas a tus tiempos y objetivos.</p>
+                </div>
+                <div class="Ofrecemos">
+                    <img src="virtual.png" alt="A domicilio o virtual">
+                    <h3>A domicilio o virtual</h3>
+                    <p>Elegí la modalidad que más te convenga.</p>
+                </div>
+                <div class="Ofrecemos">
+                    <img src="precio.png" alt="Precios accesibles">
+                    <h3>Precios accesibles</h3>
+                    <p>Profesores de calidad al alcance de todos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Opiniones">
+        <div class="contenedor2">
+            <h2>Lo que dicen nuestros usuarios</h2>
+            <div class="Opiniones">
+                <p>"ProfeLink me ayudó a encontrar un profe de matemáticas excelente. ¡Recomendadísimo!"</p>
+                <span>- Sofía, estudiante universitaria</span>
+            </div>
+            <div class="Opiniones">
+                <p>"Gracias a ProfeLink encontré clases de inglés a un precio genial y con horarios súper flexibles."
+                </p>
+                <span>- Tomás, emprendedor</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="descargar"><a id="margenDescarga"></a>
+        <div class="contenedor3">
+            <h2>¿Listo para empezar?</h2>
+            <p>Descargá ProfeLink y conectate con los mejores profesores ahora mismo.</p>
+            <a href="https://www.figma.com/proto/IYiIxStPiGQNCoqlWSH3yo/APP-PROFESORES-PARTICULARES?node-id=166-1347&t=64ZX1Da7PQG9TPLS-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=326%3A2367&show-proto-sidebar=1" class="btn btn-cta" target="_blank">Descargar gratis</a>
+        </div>
+    </section>
+
+    <footer class="footer"><a id="margenContactate"></a>
+        <div class="contenedor">
+           
+            <div class="linksredes"> 
+                 <p>Seguinos en nuestras redes:</p>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a> 
+                <p>&copy; 2024 ProfeLink. Todos los derechos reservados.</p>
+          
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
